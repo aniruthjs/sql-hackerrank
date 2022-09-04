@@ -1,0 +1,4 @@
+select distinct city
+from station
+WHERE LEFT(city , 1) not IN ('a','e','i','o','u')
+AND RIGHT(city,1) not IN  ('a','e','i','o','u')
